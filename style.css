@@ -621,7 +621,7 @@ button[type='submit']:hover {
     display: grid;
     margin: 40px;
     padding-left: 0;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   /* .learn-more img {
@@ -656,7 +656,8 @@ button[type='submit']:hover {
   }
 
   .projects {
-    margin: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
   }
 
   .col1 {
