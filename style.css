@@ -488,39 +488,93 @@ button[type='submit']:hover {
     display: block;
     text-align: left;
   }
-}
 
-/* @media only screen and (max-width: 640px) {
-  .navigation-bar a:not(:first-child) {
-    display: none;
-  }
-  #op-btn {
-    color: white;
-    float: right;
-    font-size: 20px;
-    padding: 20px;
-    margin-top: -70px;
-    margin-right: 20px;
-  }
-
-  #op-btn:hover {
-    border-radius: 3px 0 3px 0;
-    outline: 0.5px solid white;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navigation-bar.responsive {
-    position: relative;
-  }
-  .navigation-bar.responsive #op-btn {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navigation-bar.responsive a {
-    float: none;
+  .hero-text {
     display: block;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
+    color: white;
   }
-} */
+
+  .name {
+    font-family: 'Lausanne', sans-serif;
+    font-size: 20px;
+  }
+
+  .second-text {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+
+  .description {
+    font-family: 'helvetica';
+    font-size: 12px;
+    font-weight: thin;
+    line-height: 24px;
+    color: #f2f2f2;
+  }
+
+  .breaking {
+    margin: 20px;
+    opacity: 40%;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    color: #f2f2f2;
+    font-family: 'helvetica';
+    margin: 40px;
+    padding-bottom: 20px;
+  }
+
+  .socials p {
+    font-size: 12px;
+    color: #f2f2f2;
+  }
+
+  .social-media {
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .socials pre {
+    font-size: 10px;
+    padding-top: 5px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+  }
+
+  .first p {
+    font-size: 10px;
+    color: rgb(100, 100, 100);
+    font-family: 'helvetica';
+  }
+
+  .first a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-family: 'helvetica';
+    font-size: 12px;
+  }
+
+  .second {
+    margin-left: 20px;
+  }
+
+  .second p {
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+    font-family: 'helvetica';
+  }
+
+  .second a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-family: 'helvetica';
+    font-size: 12px;
+    padding-top: 10px;
+    display: grid;
+  }
+}
