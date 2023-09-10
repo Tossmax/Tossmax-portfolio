@@ -204,7 +204,7 @@ header {
   background: none;
   font-weight: bold;
   border: 1px solid white;
-  border-radius: 7px;
+  border-radius: 3px;
   color: white;
   cursor: pointer;
   padding: 4px;
@@ -508,7 +508,7 @@ button[type='submit']:hover {
 
   .description {
     font-family: 'helvetica';
-    font-size: 12px;
+    font-size: 14px;
     font-weight: thin;
     line-height: 24px;
     color: #f2f2f2;
@@ -581,5 +581,77 @@ button[type='submit']:hover {
     font-family: 'helvetica';
     font-size: 12px;
     padding-bottom: 20px;
+  }
+
+  .about p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #f2f2f2;
+    font-family: 'helvetica';
+    line-height: 18px;
+    margin-top: -50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    white-space: wrap;
+  }
+
+  .bighead {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+
+  .bighead pre {
+    font-size: 10px;
+    color: #f2f2f2;
+    padding-top: 25px;
+    font-family: 'helvetica';
+  }
+
+  .bighead h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f2f2f2;
+    white-space: wrap;
+    padding-left: 50px;
+    padding-top: 15px;
+  }
+
+  .learn-more {
+    display: grid;
+    margin: 40px;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+
+  /* .learn-more img {
+    padding-right: 15px;
+  } */
+
+  .learn-more span {
+    font-family: 'helvetica';
+    color: #f2f2f2;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .btn {
+    padding: 4;
+    font-family: 'helvetica';
+    font-size: 14px;
+    background: none;
+    /* font-weight: bold; */
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    transition: 0.3s;
+    margin-top: 10px;
+  }
+
+  .btn:hover {
+    background: white;
+    color: black;
   }
 }
