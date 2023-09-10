@@ -660,7 +660,7 @@ button[type='submit']:hover {
   }
 
   .col1 {
-    display: flex;
+    display: grid;
     justify-content: space-between;
   }
 
@@ -674,11 +674,11 @@ button[type='submit']:hover {
   .col1 p {
     font-family: 'helvetica';
     color: #f2f2f2;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
 
-    padding-top: 105px;
-    padding-left: 0;
+    padding-top: 70px;
+    padding-left: 40px;
   }
 
   .col2 {
