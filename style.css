@@ -50,36 +50,6 @@ header {
   display: none;
 }
 
-/* #op-btn {
-  display: hidden;
-} */
-
-/* .navigation-bar {
-  padding: 30px;
-  background-color: black;
-  border-bottom: 1px solid white;
-  overflow: hidden;
-} */
-
-/* .navigation-bar a {
-  text-decoration: none;
-  font-family: 'helvetica';
-  color: white;
-  padding: 20px;
-  font-size: 20px;
-} */
-
-/* .navigation-bar a:not(:first-child):hover {
-  border-radius: 3px 0 3px 0;
-  outline: 0.5px solid white;
-} */
-
-/* .active {
-  font-size: 100px;
-  font-weight: bold;
-  margin-right: 700px;
-} */
-
 .hero-text {
   display: flex;
   flex: column;
@@ -509,7 +479,8 @@ button[type='submit']:hover {
   }
   .topnav.responsive a.icon {
     position: absolute;
-    left: 350px;
+    /* left: 350px; */
+    right: 0;
     top: 82px;
   }
   .topnav.responsive a {
