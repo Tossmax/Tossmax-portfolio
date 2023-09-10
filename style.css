@@ -561,7 +561,7 @@ button[type='submit']:hover {
     margin-left: 50px;
     margin-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 70px);
+    grid-template-columns: repeat(3, 60px);
   }
 
   .second p {
