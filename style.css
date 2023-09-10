@@ -690,9 +690,10 @@ button[type='submit']:hover {
     padding: 5;
   }
 
-  .im2 {
-    height: 240px;
-    width: 330px;
+  .im2,
+  .im1 {
+    height: 220px;
+    width: 290px;
   }
 
   .col2 img {
