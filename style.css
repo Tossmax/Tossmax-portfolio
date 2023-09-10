@@ -492,7 +492,6 @@ button[type='submit']:hover {
   .hero-text {
     display: block;
     text-align: center;
-    justify-content: center;
     color: white;
   }
 
@@ -521,8 +520,7 @@ button[type='submit']:hover {
   }
 
   .socials {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     color: #f2f2f2;
     font-family: 'helvetica';
     margin: 40px;
@@ -536,18 +534,18 @@ button[type='submit']:hover {
 
   .social-media {
     display: flex;
-    margin-left: 30px;
+    margin-left: 0;
   }
 
   .socials pre {
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 5px;
     /* padding-left: 40px;
     padding-right: 40px; */
   }
 
   .first p {
-    font-size: 10px;
+    font-size: 14px;
     color: rgb(100, 100, 100);
     font-family: 'helvetica';
   }
@@ -560,11 +558,14 @@ button[type='submit']:hover {
   }
 
   .second {
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
   }
 
   .second p {
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(100, 100, 100);
     font-family: 'helvetica';
   }
@@ -574,7 +575,6 @@ button[type='submit']:hover {
     color: #f2f2f2;
     font-family: 'helvetica';
     font-size: 12px;
-    padding-top: 10px;
-    display: grid;
+    padding-bottom: 20px;
   }
 }
