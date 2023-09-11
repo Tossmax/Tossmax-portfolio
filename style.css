@@ -486,7 +486,7 @@ button[type='submit']:hover {
   html,
   body {
     overflow-x: hidden;
-    width: 100%;
+    max-width: 100%;
   }
   .topnav a:not(:first-child) {
     display: none;
@@ -503,7 +503,7 @@ button[type='submit']:hover {
   html,
   body {
     overflow-x: hidden;
-    width: 100%;
+    max-width: 100%;
   }
   .topnav.responsive {
     position: relative;
