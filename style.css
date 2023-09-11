@@ -321,6 +321,27 @@ header {
   font-family: helvetica;
 }
 
+.design-process {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.design-process a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f2f2f2;
+  margin: 40px;
+  padding: 40px;
+  border-radius: 3px;
+  outline: 0.5px solid #f2f2f2;
+}
+
+.design-process a:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
 .process {
   display: flex;
   justify-content: space-between;
@@ -497,7 +518,7 @@ button[type='submit']:hover {
 
   .name {
     font-family: 'Lausanne', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .second-text {
@@ -585,13 +606,12 @@ button[type='submit']:hover {
 
   .about p {
     font-size: 10px;
-    font-weight: bold;
     color: #f2f2f2;
     font-family: 'helvetica';
     line-height: 18px;
     margin-top: -50px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 80px;
     white-space: wrap;
   }
 
@@ -613,7 +633,7 @@ button[type='submit']:hover {
     font-weight: bold;
     color: #f2f2f2;
     white-space: wrap;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 15px;
   }
 
@@ -624,15 +644,21 @@ button[type='submit']:hover {
     padding-bottom: 20px;
   }
 
-  /* .learn-more img {
-    padding-right: 15px;
-  } */
+  .learn-more img {
+    width: 300px;
+    height: 220px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
 
   .learn-more span {
     font-family: 'helvetica';
     color: #f2f2f2;
-    font-size: 12px;
-    line-height: 24px;
+    white-space: wrap;
+    font-size: 13px;
+    min-width: min-content;
+    line-height: 20px;
+    padding-right: 90px;
   }
 
   .btn {
@@ -769,6 +795,27 @@ button[type='submit']:hover {
     line-height: 18px;
     white-space: wrap;
     font-family: helvetica;
+  }
+
+  .design-process {
+    padding-bottom: 50px;
+    padding-top: 0;
+    padding-left: 40px;
+  }
+
+  .design-process a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #f2f2f2;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 3px;
+    outline: 0.5px solid #f2f2f2;
+  }
+
+  .design-process a:hover {
+    background-color: #f2f2f2;
+    color: black;
   }
 
   .process {
