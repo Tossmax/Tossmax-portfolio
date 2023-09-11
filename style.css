@@ -688,7 +688,6 @@ button[type='submit']:hover {
 
   .col1 {
     display: grid;
-    justify-content: space-between;
   }
 
   .col1 pre {
@@ -703,7 +702,7 @@ button[type='submit']:hover {
     color: #f2f2f2;
     font-size: 12px;
     line-height: 20px;
-
+    padding-right: 20px;
     padding-top: 55px;
     padding-left: 30px;
   }
