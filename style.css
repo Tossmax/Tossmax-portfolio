@@ -10,6 +10,10 @@ a {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+}
+
 header {
   background-image: url(img/bg.jpg);
   background-size: cover;
@@ -655,7 +659,7 @@ button[type='submit']:hover {
   html,
   body {
     overflow-x: hidden;
-    max-width: 100%;
+    max-width: 100% 100%;
     scroll-behavior: smooth;
   }
   .topnav a:not(:first-child) {
@@ -697,6 +701,10 @@ button[type='submit']:hover {
     float: none;
     display: block;
     text-align: left;
+  }
+
+  button {
+    cursor: pointer;
   }
 
   .hero-text {
@@ -859,13 +867,11 @@ button[type='submit']:hover {
     font-family: 'helvetica';
     font-size: 14px;
     background: none;
-    /* font-weight: bold; */
     border: 1px solid white;
     border-radius: 3px;
     color: #f2f2f2;
     cursor: pointer;
     padding: 4px;
-    transition: 0.3s;
     margin-top: 10px;
   }
 
