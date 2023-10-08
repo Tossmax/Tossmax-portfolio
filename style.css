@@ -494,7 +494,7 @@ button[type='submit']:hover {
 }
 
 /* When the screen is less than 800 pixels reduce the padding of the contents */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   html,
   body {
     scroll-behavior: smooth;
