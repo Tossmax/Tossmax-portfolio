@@ -494,7 +494,7 @@ button[type='submit']:hover {
 }
 
 /* When the screen is less than 800 pixels reduce the padding of the contents */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   html,
   body {
     scroll-behavior: smooth;
@@ -618,13 +618,6 @@ button[type='submit']:hover {
     color: white;
     white-space: wrap;
     padding-left: 20px;
-  }
-
-  .learn-more span {
-    font-family: 'helvetica';
-    color: white;
-    font-size: 16px;
-    line-height: 24px;
   }
 
   .learn-more {
