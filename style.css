@@ -511,7 +511,7 @@ button[type='submit']:hover {
     background-color: black;
     outline: 0.5px solid white;
     overflow: hidden;
-    padding: 30px;
+    padding: 40px;
   }
 
   /* Style the links inside the navigation bar */
@@ -535,7 +535,7 @@ button[type='submit']:hover {
   .topnav a.active {
     font-size: 20px;
     font-weight: bold;
-    margin-right: 280px;
+    margin-right: 260px;
   }
 
   .hero-text {
@@ -569,19 +569,62 @@ button[type='submit']:hover {
     margin-left: 80px;
   }
 
+  .socials p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .first p {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    font-family: 'helvetica';
+  }
+
+  .first a {
+    text-decoration: none;
+    color: white;
+    font-family: 'helvetica';
+    font-size: 14px;
+  }
+
   .second {
     margin-left: 80px;
   }
 
+  .second p {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    font-family: 'helvetica';
+  }
+
+  .second a {
+    text-decoration: none;
+    color: white;
+    font-family: 'helvetica';
+    font-size: 14px;
+  }
+
   .about p {
     margin-top: -50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'helvetica';
   }
 
   .bighead h5 {
     font-size: 20px;
+    font-weight: bold;
     color: white;
     white-space: wrap;
     padding-left: 20px;
+  }
+
+  .learn-more span {
+    font-family: 'helvetica';
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .learn-more {
