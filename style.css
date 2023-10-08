@@ -952,7 +952,8 @@ button[type='submit']:hover {
   }
 
   .im2,
-  .im1 {
+  .im1,
+  .im3 {
     height: 200px;
     width: 270px;
   }
