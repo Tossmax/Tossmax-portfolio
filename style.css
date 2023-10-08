@@ -779,6 +779,10 @@ button[type='submit']:hover {
     grid-column-end: 4;
   }
 
+  .second {
+    margin-left: 70px;
+  }
+
   .second p {
     font-size: 14px;
     color: rgb(100, 100, 100);
@@ -834,8 +838,8 @@ button[type='submit']:hover {
   }
 
   .learn-more img {
-    width: 300px;
-    height: 220px;
+    width: 280px;
+    height: 200px;
     border-radius: 3px;
     margin-bottom: 10px;
   }
@@ -872,7 +876,7 @@ button[type='submit']:hover {
 
   .projects {
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .col1 {
@@ -907,8 +911,8 @@ button[type='submit']:hover {
 
   .im2,
   .im1 {
-    height: 220px;
-    width: 290px;
+    height: 200px;
+    width: 270px;
   }
 
   .col2 img {
