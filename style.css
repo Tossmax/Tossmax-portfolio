@@ -401,6 +401,10 @@ form {
   border-radius: 5px;
 }
 
+label:first-child {
+  margin-right: 645px;
+}
+
 label {
   display: block;
   margin-bottom: 10px;
@@ -485,6 +489,167 @@ button[type='submit']:hover {
   font-family: 'helvetica';
 }
 
+/* When the screen is less than 800 pixels reduce the padding of the contents */
+@media screen and (max-width: 810px) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+
+  header {
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .topnav {
+    background-color: black;
+    outline: 0.5px solid white;
+    overflow: hidden;
+    padding: 30px;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:not(:first-child):hover {
+    border-radius: 3px 0 3px 0;
+    outline: 1px solid white;
+  }
+
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 280px;
+  }
+
+  .hero-text {
+    display: block;
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+  }
+
+  .name {
+    font-family: 'Lausanne', sans-serif;
+    font-size: 80px;
+  }
+
+  .second-text {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .description {
+    font-family: 'helvetica';
+    font-size: 16px;
+    line-height: 24px;
+    /* padding-top: 180px;
+    margin-right: 200px; */
+  }
+
+  .social-media {
+    display: flex;
+    margin-left: 80px;
+  }
+
+  .second {
+    margin-left: 80px;
+  }
+
+  .about p {
+    margin-top: -50px;
+  }
+
+  .bighead h5 {
+    font-size: 20px;
+    color: white;
+    white-space: wrap;
+    padding-left: 20px;
+  }
+
+  .learn-more {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding-left: 180px;
+    padding-bottom: 20px;
+  }
+
+  .col1 p {
+    font-family: 'helvetica';
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: wrap;
+    padding-top: 105px;
+    padding-left: 100px;
+  }
+
+  .im1 {
+    height: 160px;
+    width: 230px;
+  }
+
+  .im2 {
+    height: 180px;
+    width: 280px;
+  }
+
+  .im3 {
+    height: 180px;
+    width: 200px;
+  }
+
+  .col2 img {
+    padding: 10px;
+  }
+
+  .pr1 {
+    display: flex;
+    justify-content: space-between;
+    white-space: wrap;
+    margin-left: 60px;
+  }
+
+  .design-process a {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .design-process {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  label:first-child {
+    margin-right: 355px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 320px;
+  }
+
+  button[type='submit'] {
+    margin-right: 370px;
+    margin-bottom: 40px;
+  }
+}
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 640px) {
   html,
@@ -511,6 +676,14 @@ button[type='submit']:hover {
     max-width: 100%;
     scroll-behavior: smooth;
   }
+
+  header {
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
   .topnav.responsive {
     position: relative;
   }
@@ -882,6 +1055,10 @@ button[type='submit']:hover {
     padding: 10px;
     color: #f2f2f2;
     border-radius: 3px;
+  }
+
+  label:first-child {
+    margin-right: 280px;
   }
 
   label {
