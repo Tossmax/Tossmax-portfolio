@@ -306,7 +306,7 @@ header {
 }
 
 .p1 p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
   white-space: wrap;
   font-family: Helvetica, sans-serif;
@@ -323,7 +323,7 @@ header {
 }
 
 .p2 p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
   white-space: wrap;
   font-family: Helvetica, sans-serif;
@@ -366,7 +366,7 @@ header {
   display: flex;
   justify-content: space-between;
   white-space: wrap;
-  margin-left: 370px;
+  margin-left: 280px;
 }
 
 .pr1 p {
