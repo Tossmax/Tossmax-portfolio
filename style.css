@@ -403,6 +403,7 @@ form {
   padding: 20px;
   color: white;
   border-radius: 3px;
+  margin-bottom: 40px;
 }
 
 label:first-child {
@@ -432,7 +433,7 @@ textarea:focus {
   box-shadow: 0 0 5px #6ab4d6;
 }
 
-button[type='submit'] {
+/* button[type='submit'] {
   background: none;
   outline: 1px solid white;
   color: white;
@@ -451,7 +452,7 @@ button[type='submit'] {
 button[type='submit']:hover {
   background-color: white;
   color: black;
-}
+} */
 
 .footer {
   border-top: 1px solid white;

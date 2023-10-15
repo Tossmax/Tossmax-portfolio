@@ -259,7 +259,7 @@
           out the form below
         </p>
         <div class="frm">
-          <form>
+          <form id="contact-form" method="post">
             <label for="name">Name</label>
             <input
               type="text"
@@ -282,8 +282,9 @@
               placeholder="Enter project brief"
               required
             ></textarea>
+            <input type="submit" value="Send" class="btn" />
           </form>
-          <button type="submit">Send</button>
+          <p class="confirmation-message"></p>
         </div>
       </div>
       <div class="footer">
