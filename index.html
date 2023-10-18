@@ -259,9 +259,15 @@
           out the form below
         </p>
         <div class="frm">
-          <form id="contact-form" method="post">
+          <form
+            id="contact-form"
+            action="https://public.herotofu.com/v1/1fd2ecf0-6d8c-11ee-80c8-136eb968d513"
+            method="post"
+            accept-charset="UTF-8"
+          >
             <label for="name">Name</label>
             <input
+              name="Name"
               type="text"
               id="name"
               placeholder="Enter your name"
@@ -270,6 +276,7 @@
 
             <label for="email" style="padding-right: 35px">Email</label>
             <input
+              name="Email"
               type="email"
               id="email"
               placeholder="Enter email address"
@@ -277,14 +284,9 @@
             />
 
             <label for="message">Description</label>
-            <textarea
-              id="message"
-              placeholder="Enter project brief"
-              required
-            ></textarea>
+            <textarea id="message" placeholder="Enter project brief"></textarea>
             <input type="submit" value="Send" class="btn" />
           </form>
-          <p class="confirmation-message"></p>
         </div>
       </div>
       <div class="footer">
