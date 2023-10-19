@@ -257,6 +257,35 @@ header {
   justify-content: space-between;
 }
 
+.descriB p {
+  margin-top: 10px;
+  width: inherit;
+  font-size: 16px;
+}
+
+.descriB pre {
+  width: min-content;
+  background-color: #4b4a4a;
+  padding: 5px;
+  color: black;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+.descriB a {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  width: inherit;
+  margin-left: 40px;
+}
+
+.descriB i {
+  margin-left: 3px;
+  font-size: 12px;
+}
+
 .col2 img {
   padding: 20px;
 }
@@ -994,6 +1023,14 @@ button[type='submit']:hover {
   .im3 {
     height: 200px;
     width: 270px;
+  }
+
+  .descriB {
+    margin-bottom: 20px;
+  }
+
+  .descriB pre {
+    margin-bottom: 60px;
   }
 
   .col2 img {
