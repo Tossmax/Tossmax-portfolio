@@ -265,7 +265,7 @@ header {
 
 .descriB pre {
   width: min-content;
-  background-color: #4b4a4a;
+  background-color: gray;
   padding: 5px;
   color: black;
   border-radius: 3px;
