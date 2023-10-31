@@ -680,6 +680,12 @@ button[type='submit']:hover {
     padding-left: 100px;
   }
 
+  .descriB p {
+    margin-top: 10px;
+    width: inherit;
+    font-size: 12px;
+  }
+
   .im1 {
     height: 160px;
     width: 230px;
